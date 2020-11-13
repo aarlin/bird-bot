@@ -13,3 +13,26 @@ Bird Bot is an auto-checkout bot that currently supports Walmart and Best buy. I
 
 ## Installation
 [View The Docs Here](https://nateskicks13.gitbook.io/bird-bot/)
+
+Download Git
+Download Python
+
+## MacOS
+cd desktop
+git clone https://github.com/natewong1313/bird-bot
+cd bird-bot
+sudo pip3 install -r requirements.txt
+python3 app.py
+cd desktop/bird-bot
+python3 app.py
+
+## Windows
+
+cd desktop
+git clone https://github.com/natewong1313/bird-bot
+cd bird-bot
+pip install -r requirements.txt --user
+OPTIONAL: pip install pycryptodomex
+python app.py
+cd desktop/bird-bot
+python app.py
